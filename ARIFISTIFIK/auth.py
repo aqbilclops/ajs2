@@ -8,7 +8,7 @@ import rsa, os
 
 class LineAuth(object):
     isLogin     = False
-    authToken   = ""
+    authToken   = "http://101.255.95.249:6969"
     certificate = ""
 
     def __init__(self):
